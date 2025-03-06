@@ -44,10 +44,13 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.8"
   },
-  "homepage": "https://ТВОЙ_GITHUB_ЮЗЕРНЕЙМ.github.io/ТВОЙ_РЕПОЗИТОРИЙ",
+  "homepage": "https://github.com/Znbmels/shetchic.git",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
+},
+"scripts": {
+  "test": "react-scripts test --watchAll=false"
 }
 
 }
