@@ -1,4 +1,5 @@
-{
+{ "homepage": "https://Znbmels.github.io/shetchic",
+
   "name": "react_project",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+
+
   },
   "eslintConfig": {
     "extends": [
@@ -43,14 +47,8 @@
     "jest": "^27.5.1",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.8"
-  },
-  "homepage": "https://github.com/Znbmels/shetchic.git",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
-"scripts": {
-  "test": "react-scripts test --watchAll=false"
+  }
 }
 
-}
+
+
