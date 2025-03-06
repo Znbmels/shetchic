@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App";
-import "bootstrap/dist/css/bootstrap.min.css"; // Импорт Bootstrap
+import "./index.css"; // Можно добавить общий стиль для body
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

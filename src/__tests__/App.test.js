@@ -1,23 +1,9 @@
-import { render, screen, fireEvent } from "@testing-library/react";
-import "@testing-library/jest-dom";
-import App from "../App";
+import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom"; // Добавляем этот импорт
+import App from "../App"; 
 
-test("показывает начальное значение счетчика", () => {
+test("Отображается заголовок и начальный баланс", () => {
   render(<App />);
-  const counterText = screen.getByText(/Schetchic: 0/i);
-  expect(counterText).toBeInTheDocument();
-});
-
-test("увеличивает значение при клике на +++", () => {
-  render(<App />);
-  const buttonPlus = screen.getByText("+++");
-  fireEvent.click(buttonPlus);
-  expect(screen.getByText(/Schetchic: 1/i)).toBeInTheDocument();
-});
-
-test("уменьшает значение при клике на ---", () => {
-  render(<App />);
-  const buttonMinus = screen.getByText("---");
-  fireEvent.click(buttonMinus);
-  expect(screen.getByText(/Schetchic: -1/i)).toBeInTheDocument();
+  expect(screen.getByText(/Личный бюджет/i)).toBeInTheDocument();
+  expect(screen.getByText(/Баланс: 0.00₸/i)).toBeInTheDocument();
 });
