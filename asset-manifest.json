@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/shetchic/static/js/main.e93d74be.js",
+    "index.html": "/shetchic/index.html",
+    "main.e93d74be.js.map": "/shetchic/static/js/main.e93d74be.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e93d74be.js"
+  ]
+}
