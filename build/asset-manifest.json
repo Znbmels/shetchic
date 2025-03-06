@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.5517ce1b.js",
-    "index.html": "/index.html",
-    "main.5517ce1b.js.map": "/static/js/main.5517ce1b.js.map"
+    "main.js": "/shetchic/static/js/main.e93d74be.js",
+    "index.html": "/shetchic/index.html",
+    "main.e93d74be.js.map": "/shetchic/static/js/main.e93d74be.js.map"
   },
   "entrypoints": [
-    "static/js/main.5517ce1b.js"
+    "static/js/main.e93d74be.js"
   ]
 }
