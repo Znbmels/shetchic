@@ -1,0 +1,31 @@
+name: CI/CD для React-приложения
+
+on:
+  push:
+    branches:
+      - main  # Запускать при пуше в main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонирование репозитория
+        uses: actions/checkout@v4
+
+      - name: Установка Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Установка зависимостей
+        run: npm install
+
+      - name: Запуск тестов
+        run: npm test -- --watchAll=false
+        
+      - name: Деплой на GitHub Pages
+        run: npm run deploy
