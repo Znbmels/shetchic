@@ -3,7 +3,7 @@ name: CI/CD для React-приложения
 on:
   push:
     branches:
-      - main  # Запускать при пуше в main
+      - main  # Запуск при пуше в main
   pull_request:
     branches:
       - main
