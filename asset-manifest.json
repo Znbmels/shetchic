@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/shetchic/static/css/main.663bb03e.css",
-    "main.js": "/shetchic/static/js/main.fc273504.js",
+    "main.js": "/shetchic/static/js/main.876ee241.js",
     "index.html": "/shetchic/index.html",
-    "main.663bb03e.css.map": "/shetchic/static/css/main.663bb03e.css.map",
-    "main.fc273504.js.map": "/shetchic/static/js/main.fc273504.js.map"
+    "main.876ee241.js.map": "/shetchic/static/js/main.876ee241.js.map"
   },
   "entrypoints": [
-    "static/css/main.663bb03e.css",
-    "static/js/main.fc273504.js"
+    "static/js/main.876ee241.js"
   ]
 }
